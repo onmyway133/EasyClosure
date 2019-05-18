@@ -8,10 +8,9 @@
 import UIKit
 
 public extension Container where Host: UISearchBar {
-
     func text(_ action: @escaping StringAction) {
         let target = SearchBarTarget(host: host, action: action)
-        targets.append(target)
+        targets[SearchBarTarget.uniqueId] = target
     }
 }
 

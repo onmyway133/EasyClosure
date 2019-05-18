@@ -8,10 +8,9 @@
 import UIKit
 
 public extension Container where Host: UIGestureRecognizer {
-    
     func occur(_ action: @escaping Action) {
         let target = GestureTarget(host: host, action: action)
-        targets.append(target)
+        targets[GestureTarget.uniqueId] = target
     }
 }
 

@@ -11,7 +11,7 @@ public extension Container where Host: NSButton {
 
     func tap(_ action: @escaping Action) {
         let target = ButtonTarget(host: host, action: action)
-        targets.append(target)
+        targets[ButtonTarget.uniqueId] = target
     }
 }
 

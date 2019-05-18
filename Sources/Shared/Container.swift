@@ -15,7 +15,7 @@ public class Container<Host: AnyObject>: NSObject {
     }
     
     /// All the UI targets in this container
-    var actionTargets: [AnyObject] = []
+    var targets = [String: NSObject]()
     
     var timerTarget: TimerTarget?
     let keyPathTarget = KeyPathTarget()

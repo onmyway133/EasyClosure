@@ -8,10 +8,9 @@
 import UIKit
 
 public extension Container where Host: UISlider {
-
-    func value(_ action: @escaping FloatAction) {
+    func valueChanged(_ action: @escaping FloatAction) {
         let target = SliderTarget(host: host, action: action)
-        targets.append(target)
+        targets[SliderTarget.uniqueId] = target
     }
 }
 

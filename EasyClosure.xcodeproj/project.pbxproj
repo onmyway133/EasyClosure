@@ -50,6 +50,9 @@
 		D2BBB9AF2290938D0061F75F /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9A72290938D0061F75F /* Typealias.swift */; };
 		D2BBB9B02290938D0061F75F /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9A72290938D0061F75F /* Typealias.swift */; };
 		D2BBB9B22290947F0061F75F /* NSGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9B12290947F0061F75F /* NSGestureRecognizer.swift */; };
+		D2BBB9B4229099FE0061F75F /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9B3229099FE0061F75F /* NSObject+Extension.swift */; };
+		D2BBB9B522909A640061F75F /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9B3229099FE0061F75F /* NSObject+Extension.swift */; };
+		D2BBB9B622909A650061F75F /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9B3229099FE0061F75F /* NSObject+Extension.swift */; };
 		D5B2E8AA1C3A780C00C0327D /* EasyClosure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* EasyClosure.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* EasyClosure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* EasyClosure.framework */; };
 /* End PBXBuildFile section */
@@ -96,6 +99,7 @@
 		D2BBB9A62290938D0061F75F /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		D2BBB9A72290938D0061F75F /* Typealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 		D2BBB9B12290947F0061F75F /* NSGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSGestureRecognizer.swift; sourceTree = "<group>"; };
+		D2BBB9B3229099FE0061F75F /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
 		D500FD111C3AABED00782D78 /* Playground-iOS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-iOS.playground"; sourceTree = "<group>"; };
 		D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-Mac.playground"; sourceTree = "<group>"; };
 		D5B2E89F1C3A780C00C0327D /* EasyClosure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyClosure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -236,6 +240,7 @@
 				D2668D2D1ECA399D00FCB9A8 /* KeyPath.swift */,
 				D2668D2E1ECA399D00FCB9A8 /* Timer.swift */,
 				D2668D3D1ECA3C3E00FCB9A8 /* Notification.swift */,
+				D2BBB9B3229099FE0061F75F /* NSObject+Extension.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -503,6 +508,7 @@
 				D25A290B1FB1C380008677F7 /* Notification.swift in Sources */,
 				D2BBB9B02290938D0061F75F /* Typealias.swift in Sources */,
 				D25A29021FB1C37C008677F7 /* UISearchBar.swift in Sources */,
+				D2BBB9B622909A650061F75F /* NSObject+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +519,7 @@
 				D2668D1F1ECA387700FCB9A8 /* UISlider.swift in Sources */,
 				D2668D201ECA387700FCB9A8 /* UITextField.swift in Sources */,
 				D2668D211ECA387700FCB9A8 /* UITextView.swift in Sources */,
+				D2BBB9B522909A640061F75F /* NSObject+Extension.swift in Sources */,
 				D2668D1B1ECA387700FCB9A8 /* UIControl.swift in Sources */,
 				D2BBB9AE2290938D0061F75F /* Typealias.swift in Sources */,
 				D2668D191ECA387700FCB9A8 /* UIBarButtonItem.swift in Sources */,
@@ -544,6 +551,7 @@
 			files = (
 				D2668D301ECA399D00FCB9A8 /* KeyPath.swift in Sources */,
 				D2BBB9AC2290938D0061F75F /* Container.swift in Sources */,
+				D2BBB9B4229099FE0061F75F /* NSObject+Extension.swift in Sources */,
 				D2668D321ECA399D00FCB9A8 /* Timer.swift in Sources */,
 				D2668D3F1ECA3C3E00FCB9A8 /* Notification.swift in Sources */,
 				D2BBB9B22290947F0061F75F /* NSGestureRecognizer.swift in Sources */,

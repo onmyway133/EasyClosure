@@ -8,10 +8,9 @@
 import UIKit
 
 public extension Container where Host: UIBarButtonItem {
-
     func tap(_ action: @escaping Action) {
         let target = BarButtonItemTarget(host: host, action: action)
-        targets.append(target)
+        targets[BarButtonItemTarget.uniqueId] = target
     }
 }
 

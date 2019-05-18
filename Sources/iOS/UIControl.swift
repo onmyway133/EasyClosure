@@ -8,10 +8,9 @@
 import UIKit
 
 public extension Container where Host: UIControl {
-    
-    func change(_ action: @escaping Action) {
+    func valueChange(_ action: @escaping Action) {
         let target = ControlTarget(host: host, action: action)
-        targets.append(target)
+        targets[ControlTarget.uniqueId] = target
     }
 }
 

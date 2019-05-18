@@ -8,10 +8,9 @@
 import UIKit
 
 public extension Container where Host: UIDatePicker {
-
     func pick(_ action: @escaping DateAction) {
         let target = DatePickerTarget(host: host, action: action)
-        targets.append(target)
+        targets[DatePickerTarget.uniqueId] = target
     }
 }
 

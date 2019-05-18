@@ -8,28 +8,14 @@
 import UIKit
 
 public extension Container where Host: UITextField {
-
-    func text(_ action: @escaping StringAction) {
+    func textChanged(_ action: @escaping StringAction) {
         let target = TextFieldTarget(host: host, textAction: action)
-        targets.append(target)
-    }
-
-    func didEndEditing(_ action: @escaping StringAction) {
-        let target = TextFieldTarget(host: host, didEndEditingAction: action)
-        targets.append(target)
+        targets[TextFieldTarget.uniqueId] = target
     }
 }
 
-class TextFieldTarget: NSObject, UITextFieldDelegate {
-    var didEndEditingAction: StringAction?
+class TextFieldTarget: NSObject {
     var textAction: StringAction?
-    
-    required init(host: UITextField, didEndEditingAction: @escaping StringAction) {
-        super.init()
-
-        self.didEndEditingAction = didEndEditingAction
-        host.delegate = self
-    }
 
     required init(host: UITextField, textAction: @escaping StringAction) {
         super.init()
@@ -42,11 +28,5 @@ class TextFieldTarget: NSObject, UITextFieldDelegate {
 
     @objc func handleTextChange(_ textField: UITextField) {
         textAction?(textField.text ?? "")
-    }
-
-    // MARK: - UITextFieldDelegate
-
-    @objc func textFieldDidEndEditing(_ textField: UITextField) {
-        didEndEditingAction?(textField.text ?? "")
     }
 }
