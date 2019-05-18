@@ -22,7 +22,7 @@ class GestureTarget: NSObject {
     init(host: NSGestureRecognizer, action: @escaping Action) {
         super.init()
 
-        host.action = #selector(didOccur(_:)
+        host.action = #selector(didOccur(_:))
         host.target = self
     }
 
