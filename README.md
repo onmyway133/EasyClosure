@@ -46,19 +46,19 @@ func allOn() -> Bool {
   return [good, cheap, fast].filter({ $0.isOn }).count == 3
 }
 
-good.on.change { _ in
+good.on.valueChange { _ in
   if allOn() {
     fast.setOn(false, animated: true)
   }
 }
 
-cheap.on.change { _ in
+cheap.on.valueChange { _ in
   if allOn() {
     good.setOn(false, animated: true)
   }
 }
 
-fast.on.change { _ in
+fast.on.valueChange { _ in
   if allOn() {
     cheap.setOn(false, animated: true)
   }
@@ -66,21 +66,6 @@ fast.on.change { _ in
 ```
 
 ## Target-Action and Delegate
-
-#### UIControl
-
-Works on any `UIControl` subclasses
-
-```swift
-control.on.change {
-  print("control has changed")
-}
-
-refreshControl.on.change {
-  print("refresh control")
-}
-
-```
 
 #### UIButton
 
@@ -93,7 +78,7 @@ button.on.tap {
 #### UISlider
 
 ```swift
-slider.on.value { value in
+slider.on.valueChange { value in
   print("slider has changed value")
 }
 ```
@@ -101,19 +86,15 @@ slider.on.value { value in
 #### UITextField
 
 ```swift
-textField.on.text { text in
+textField.on.textChange { text in
   print("textField text has changed")
-}
-
-textField.on.didEndEditing { text in
-  print("texField has ended editing")
 }
 ```
 
 #### UITextView
 
 ```swift
-textView.on.text { text in
+textView.on.textChange { text in
   print("textView text has changed")
 }
 ```
@@ -121,7 +102,7 @@ textView.on.text { text in
 #### UISearchBar
 
 ```swift
-searchBar.on.text { text in
+searchBar.on.textChange { text in
   print("searchBar text has changed")
 }
 ```
@@ -156,14 +137,14 @@ Extend `Container` and specify `Host` to add more functionalities to your own ty
 
 ```swift
 public extension Container where Host: UITableView {
-  func didTapOnCell(_ action: @escaping (UITableViewCell) -> Void)) {
+  func cellTap(_ action: @escaping (UITableViewCell) -> Void)) {
     // Your code here here
   }
 }
 
 // usage
 let tableView = UITableView()
-tableView.on.didTapOnxCell { cell in
+tableView.on.cellTap { cell in
   
 }
 

@@ -9,7 +9,7 @@
 import UIKit
 
 public extension Container where Host: UISwitch {
-    func valueChanged(_ action: @escaping BoolAction) {
+    func valueChange(_ action: @escaping BoolAction) {
         let target = SwitchTarget(host: host, action: action)
         targets[SwitchTarget.uniqueId] = target
     }

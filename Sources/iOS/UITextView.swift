@@ -8,8 +8,7 @@
 import UIKit
 
 public extension Container where Host: UITextView {
-
-    func text(_ action: @escaping StringAction) {
+    func textChange(_ action: @escaping StringAction) {
         let target = TextViewTarget(host: host, action: action)
         targets[TextViewTarget.uniqueId] = target
     }

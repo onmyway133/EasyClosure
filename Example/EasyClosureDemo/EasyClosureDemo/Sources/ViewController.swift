@@ -18,19 +18,19 @@ class ViewController: UIViewController {
             return [good, cheap, fast].filter({ $0.isOn }).count == 3
         }
 
-        good.on.valueChanged { _ in
+        good.on.valueChange { _ in
             if allOn() {
                 fast.setOn(false, animated: true)
             }
         }
 
-        cheap.on.valueChanged { _ in
+        cheap.on.valueChange { _ in
             if allOn() {
                 good.setOn(false, animated: true)
             }
         }
 
-        fast.on.valueChanged { _ in
+        fast.on.valueChange { _ in
             if allOn() {
                 cheap.setOn(false, animated: true)
             }

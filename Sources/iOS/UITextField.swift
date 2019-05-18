@@ -8,7 +8,7 @@
 import UIKit
 
 public extension Container where Host: UITextField {
-    func textChanged(_ action: @escaping StringAction) {
+    func textChange(_ action: @escaping StringAction) {
         let target = TextFieldTarget(host: host, textAction: action)
         targets[TextFieldTarget.uniqueId] = target
     }
