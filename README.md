@@ -150,29 +150,6 @@ gestureRecognizer.on.occur {
 }
 ```
 
-## KVO
-
-Use `observe` and `unobserve` to perform KVO. **EasyClosure** will also remove all observations upon `deinit`
-
-```swift
-viewController.on.observe(object: label, keyPath: keyPath: #keyPath(UILabel.text)) {
-  print($0 as? String)
-}
-
-viewController.on.unobserve(object: label)
-```
-
-
-Here I use `viewController` as observer, but you can just create an `NSObject` as the observer, because `on` works on any `NSObject` subclasses
-
-```swift
-let observer = NSObject()
-
-observer.on.observe(object: scrollView: keyPath: #keyPath(UIScrollView.contentSize)) { value in
-  print($0 as? CGSize)
-}
-```
-
 ## Notification
 
 Use `observe` and `unobserve` to perform observations on `NotificationCenter`. **EasyClosure** will also remove all observations upon `deinit`
