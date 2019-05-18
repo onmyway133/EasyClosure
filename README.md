@@ -4,7 +4,7 @@
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/EasyClosure.svg?style=flat)](http://cocoadocs.org/docsets/EasyClosure)
 [![Platform](https://img.shields.io/cocoapods/p/EasyClosure.svg?style=flat)](http://cocoadocs.org/docsets/EasyClosure)
-![Swift](https://img.shields.io/badge/%20in-swift%204.0-orange.svg)
+![Swift](https://img.shields.io/badge/%20in-swift%205.0-orange.svg)
 
 ![](Screenshots/Artboard.png)
 
@@ -42,8 +42,8 @@ Sometimes, you just want a unified and quick way to do it. Just call `on` on any
 We can make a fun demo of `good, cheap, fast` with `UISwitch`
 
 ```swift
-func allEasyClosure() -> Bool {
-  return [good, cheap, fast].filter({ $0.isEasyClosure }).count == 3
+func allOn() -> Bool {
+  return [good, cheap, fast].filter({ $0.isOn }).count == 3
 }
 
 good.on.change {
@@ -219,7 +219,7 @@ tableView.on.didTapEasyClosureCell { cell in
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'EasyClosure', :git => 'https://github.com/onmyway133/EasyClosure'
+pod 'EasyClosure'
 ```
 
 **EasyClosure** is also available through [Carthage](https://github.com/Carthage/Carthage).
