@@ -26,7 +26,6 @@
 		D2668D1F1ECA387700FCB9A8 /* UISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D141ECA387700FCB9A8 /* UISlider.swift */; };
 		D2668D201ECA387700FCB9A8 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D151ECA387700FCB9A8 /* UITextField.swift */; };
 		D2668D211ECA387700FCB9A8 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D161ECA387700FCB9A8 /* UITextView.swift */; };
-		D2668D2C1ECA388A00FCB9A8 /* NSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D2B1ECA388A00FCB9A8 /* NSButton.swift */; };
 		D2668D411ECA4D4400FCB9A8 /* TestCase+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D401ECA4D4400FCB9A8 /* TestCase+Extensions.swift */; };
 		D2668D421ECA4D4400FCB9A8 /* TestCase+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D401ECA4D4400FCB9A8 /* TestCase+Extensions.swift */; };
 		D2BBB9A82290938D0061F75F /* EasyClosureAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9A52290938D0061F75F /* EasyClosureAware.swift */; };
@@ -38,11 +37,12 @@
 		D2BBB9AE2290938D0061F75F /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9A72290938D0061F75F /* Typealias.swift */; };
 		D2BBB9AF2290938D0061F75F /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9A72290938D0061F75F /* Typealias.swift */; };
 		D2BBB9B02290938D0061F75F /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9A72290938D0061F75F /* Typealias.swift */; };
-		D2BBB9B22290947F0061F75F /* NSGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9B12290947F0061F75F /* NSGestureRecognizer.swift */; };
 		D2BBB9B4229099FE0061F75F /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9B3229099FE0061F75F /* NSObject+Extension.swift */; };
 		D2BBB9B522909A640061F75F /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9B3229099FE0061F75F /* NSObject+Extension.swift */; };
 		D2BBB9B622909A650061F75F /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9B3229099FE0061F75F /* NSObject+Extension.swift */; };
 		D2BBB9B922909F690061F75F /* UISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9B822909F690061F75F /* UISwitch.swift */; };
+		D2BBB9BD2290A5160061F75F /* NSGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9BB2290A5160061F75F /* NSGestureRecognizer.swift */; };
+		D2BBB9BE2290A5160061F75F /* NSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9BC2290A5160061F75F /* NSButton.swift */; };
 		D5B2E8AA1C3A780C00C0327D /* EasyClosure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* EasyClosure.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* EasyClosure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* EasyClosure.framework */; };
 /* End PBXBuildFile section */
@@ -79,15 +79,16 @@
 		D2668D141ECA387700FCB9A8 /* UISlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISlider.swift; sourceTree = "<group>"; };
 		D2668D151ECA387700FCB9A8 /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		D2668D161ECA387700FCB9A8 /* UITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
-		D2668D2B1ECA388A00FCB9A8 /* NSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSButton.swift; sourceTree = "<group>"; };
 		D2668D401ECA4D4400FCB9A8 /* TestCase+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TestCase+Extensions.swift"; sourceTree = "<group>"; };
 		D2BBB9A52290938D0061F75F /* EasyClosureAware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyClosureAware.swift; sourceTree = "<group>"; };
 		D2BBB9A62290938D0061F75F /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		D2BBB9A72290938D0061F75F /* Typealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
-		D2BBB9B12290947F0061F75F /* NSGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSGestureRecognizer.swift; sourceTree = "<group>"; };
 		D2BBB9B3229099FE0061F75F /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
 		D2BBB9B722909CD20061F75F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D2BBB9B822909F690061F75F /* UISwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitch.swift; sourceTree = "<group>"; };
+		D2BBB9BB2290A5160061F75F /* NSGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSGestureRecognizer.swift; sourceTree = "<group>"; };
+		D2BBB9BC2290A5160061F75F /* NSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSButton.swift; sourceTree = "<group>"; };
+		D2BBB9BF2290A51E0061F75F /* EasyClosure.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = EasyClosure.podspec; sourceTree = "<group>"; };
 		D500FD111C3AABED00782D78 /* Playground-iOS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-iOS.playground"; sourceTree = "<group>"; };
 		D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-Mac.playground"; sourceTree = "<group>"; };
 		D5B2E89F1C3A780C00C0327D /* EasyClosure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyClosure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,9 +151,19 @@
 			path = "EasyClosure-tvOS";
 			sourceTree = "<group>";
 		};
+		D2BBB9BA2290A5160061F75F /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D2BBB9BB2290A5160061F75F /* NSGestureRecognizer.swift */,
+				D2BBB9BC2290A5160061F75F /* NSButton.swift */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
 		D5B2E8951C3A780C00C0327D = {
 			isa = PBXGroup;
 			children = (
+				D2BBB9BF2290A51E0061F75F /* EasyClosure.podspec */,
 				D2BBB9B722909CD20061F75F /* README.md */,
 				D500FD111C3AABED00782D78 /* Playground-iOS.playground */,
 				D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */,
@@ -188,8 +199,8 @@
 		D5C629691C3A809D007F7B7C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				D2BBB9BA2290A5160061F75F /* macOS */,
 				D5C6296A1C3A809D007F7B7C /* iOS */,
-				D5C6296C1C3A809D007F7B7C /* Mac */,
 				D5C6296E1C3A809D007F7B7C /* Shared */,
 			);
 			path = Sources;
@@ -209,15 +220,6 @@
 				D2BBB9B822909F690061F75F /* UISwitch.swift */,
 			);
 			path = iOS;
-			sourceTree = "<group>";
-		};
-		D5C6296C1C3A809D007F7B7C /* Mac */ = {
-			isa = PBXGroup;
-			children = (
-				D2668D2B1ECA388A00FCB9A8 /* NSButton.swift */,
-				D2BBB9B12290947F0061F75F /* NSGestureRecognizer.swift */,
-			);
-			path = Mac;
 			sourceTree = "<group>";
 		};
 		D5C6296E1C3A809D007F7B7C /* Shared */ = {
@@ -530,9 +532,9 @@
 			files = (
 				D2BBB9AC2290938D0061F75F /* Container.swift in Sources */,
 				D2BBB9B4229099FE0061F75F /* NSObject+Extension.swift in Sources */,
-				D2BBB9B22290947F0061F75F /* NSGestureRecognizer.swift in Sources */,
 				D2BBB9A92290938D0061F75F /* EasyClosureAware.swift in Sources */,
-				D2668D2C1ECA388A00FCB9A8 /* NSButton.swift in Sources */,
+				D2BBB9BD2290A5160061F75F /* NSGestureRecognizer.swift in Sources */,
+				D2BBB9BE2290A5160061F75F /* NSButton.swift in Sources */,
 				D2BBB9AF2290938D0061F75F /* Typealias.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

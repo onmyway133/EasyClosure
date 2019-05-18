@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "EasyClosure"
   s.summary          = "Unified communication with easy closure in Swift"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.homepage         = "https://github.com/onmyway133/EasyClosure"
   s.license          = 'MIT'
   s.author           = { "Khoa Pham" => "onmyway133@gmail.com" }
