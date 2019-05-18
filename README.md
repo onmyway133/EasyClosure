@@ -150,15 +150,6 @@ gestureRecognizer.on.occur {
 }
 ```
 
-#### Timer
-
-```swift
-timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true)
-timer.on.tick {
-  print("tick")
-}
-```
-
 ## KVO
 
 Use `observe` and `unobserve` to perform KVO. **EasyClosure** will also remove all observations upon `deinit`

@@ -20,7 +20,6 @@
 		D25A29041FB1C37C008677F7 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D151ECA387700FCB9A8 /* UITextField.swift */; };
 		D25A29051FB1C37C008677F7 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D161ECA387700FCB9A8 /* UITextView.swift */; };
 		D25A29091FB1C380008677F7 /* KeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D2D1ECA399D00FCB9A8 /* KeyPath.swift */; };
-		D25A290A1FB1C380008677F7 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D2E1ECA399D00FCB9A8 /* Timer.swift */; };
 		D25A290B1FB1C380008677F7 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D3D1ECA3C3E00FCB9A8 /* Notification.swift */; };
 		D2668D191ECA387700FCB9A8 /* UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D0E1ECA387700FCB9A8 /* UIBarButtonItem.swift */; };
 		D2668D1A1ECA387700FCB9A8 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D0F1ECA387700FCB9A8 /* UIButton.swift */; };
@@ -34,8 +33,6 @@
 		D2668D2C1ECA388A00FCB9A8 /* NSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D2B1ECA388A00FCB9A8 /* NSButton.swift */; };
 		D2668D2F1ECA399D00FCB9A8 /* KeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D2D1ECA399D00FCB9A8 /* KeyPath.swift */; };
 		D2668D301ECA399D00FCB9A8 /* KeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D2D1ECA399D00FCB9A8 /* KeyPath.swift */; };
-		D2668D311ECA399D00FCB9A8 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D2E1ECA399D00FCB9A8 /* Timer.swift */; };
-		D2668D321ECA399D00FCB9A8 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D2E1ECA399D00FCB9A8 /* Timer.swift */; };
 		D2668D3E1ECA3C3E00FCB9A8 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D3D1ECA3C3E00FCB9A8 /* Notification.swift */; };
 		D2668D3F1ECA3C3E00FCB9A8 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D3D1ECA3C3E00FCB9A8 /* Notification.swift */; };
 		D2668D411ECA4D4400FCB9A8 /* TestCase+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D401ECA4D4400FCB9A8 /* TestCase+Extensions.swift */; };
@@ -92,7 +89,6 @@
 		D2668D161ECA387700FCB9A8 /* UITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
 		D2668D2B1ECA388A00FCB9A8 /* NSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSButton.swift; sourceTree = "<group>"; };
 		D2668D2D1ECA399D00FCB9A8 /* KeyPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPath.swift; sourceTree = "<group>"; };
-		D2668D2E1ECA399D00FCB9A8 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		D2668D3D1ECA3C3E00FCB9A8 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		D2668D401ECA4D4400FCB9A8 /* TestCase+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TestCase+Extensions.swift"; sourceTree = "<group>"; };
 		D2BBB9A52290938D0061F75F /* EasyClosureAware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyClosureAware.swift; sourceTree = "<group>"; };
@@ -100,6 +96,7 @@
 		D2BBB9A72290938D0061F75F /* Typealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 		D2BBB9B12290947F0061F75F /* NSGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSGestureRecognizer.swift; sourceTree = "<group>"; };
 		D2BBB9B3229099FE0061F75F /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		D2BBB9B722909CD20061F75F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D500FD111C3AABED00782D78 /* Playground-iOS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-iOS.playground"; sourceTree = "<group>"; };
 		D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-Mac.playground"; sourceTree = "<group>"; };
 		D5B2E89F1C3A780C00C0327D /* EasyClosure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyClosure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,6 +162,7 @@
 		D5B2E8951C3A780C00C0327D = {
 			isa = PBXGroup;
 			children = (
+				D2BBB9B722909CD20061F75F /* README.md */,
 				D500FD111C3AABED00782D78 /* Playground-iOS.playground */,
 				D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */,
 				D5C629691C3A809D007F7B7C /* Sources */,
@@ -238,7 +236,6 @@
 				D2BBB9A52290938D0061F75F /* EasyClosureAware.swift */,
 				D2BBB9A72290938D0061F75F /* Typealias.swift */,
 				D2668D2D1ECA399D00FCB9A8 /* KeyPath.swift */,
-				D2668D2E1ECA399D00FCB9A8 /* Timer.swift */,
 				D2668D3D1ECA3C3E00FCB9A8 /* Notification.swift */,
 				D2BBB9B3229099FE0061F75F /* NSObject+Extension.swift */,
 			);
@@ -504,7 +501,6 @@
 				D25A29011FB1C37C008677F7 /* UIGestureRecognizer.swift in Sources */,
 				D25A29091FB1C380008677F7 /* KeyPath.swift in Sources */,
 				D2BBB9AA2290938D0061F75F /* EasyClosureAware.swift in Sources */,
-				D25A290A1FB1C380008677F7 /* Timer.swift in Sources */,
 				D25A290B1FB1C380008677F7 /* Notification.swift in Sources */,
 				D2BBB9B02290938D0061F75F /* Typealias.swift in Sources */,
 				D25A29021FB1C37C008677F7 /* UISearchBar.swift in Sources */,
@@ -525,7 +521,6 @@
 				D2668D191ECA387700FCB9A8 /* UIBarButtonItem.swift in Sources */,
 				D2668D1D1ECA387700FCB9A8 /* UIGestureRecognizer.swift in Sources */,
 				D2668D2F1ECA399D00FCB9A8 /* KeyPath.swift in Sources */,
-				D2668D311ECA399D00FCB9A8 /* Timer.swift in Sources */,
 				D2668D1C1ECA387700FCB9A8 /* UIDatePicker.swift in Sources */,
 				D2668D3E1ECA3C3E00FCB9A8 /* Notification.swift in Sources */,
 				D2BBB9A82290938D0061F75F /* EasyClosureAware.swift in Sources */,
@@ -552,7 +547,6 @@
 				D2668D301ECA399D00FCB9A8 /* KeyPath.swift in Sources */,
 				D2BBB9AC2290938D0061F75F /* Container.swift in Sources */,
 				D2BBB9B4229099FE0061F75F /* NSObject+Extension.swift in Sources */,
-				D2668D321ECA399D00FCB9A8 /* Timer.swift in Sources */,
 				D2668D3F1ECA3C3E00FCB9A8 /* Notification.swift in Sources */,
 				D2BBB9B22290947F0061F75F /* NSGestureRecognizer.swift in Sources */,
 				D2BBB9A92290938D0061F75F /* EasyClosureAware.swift in Sources */,
