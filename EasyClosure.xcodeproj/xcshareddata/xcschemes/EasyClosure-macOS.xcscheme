@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D5C629481C3A7FAA007F7B7C"
+               BuildableName = "EasyClosure-macOS-Tests.xctest"
+               BlueprintName = "EasyClosure-macOS-Tests"
+               ReferencedContainer = "container:EasyClosure.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D5C6293F1C3A7FAA007F7B7C"
+            BuildableName = "EasyClosure.framework"
+            BlueprintName = "EasyClosure-macOS"
+            ReferencedContainer = "container:EasyClosure.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>

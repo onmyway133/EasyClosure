@@ -150,32 +150,20 @@ gestureRecognizer.on.occur {
 }
 ```
 
-## Notification
-
-Use `observe` and `unobserve` to perform observations on `NotificationCenter`. **EasyClosure** will also remove all observations upon `deinit`
-
-```swift
-viewController.on.observe(notification: Notification.Name.UIApplicationDidBecomeActive) { notification in
-  print("application did become active")
-}
-
-viewController.on.unobserve(notification: Notification.Name.UIApplicationDidBecomeActive)
-```
-
 ## Extensible
 
 Extend `Container` and specify `Host` to add more functionalities to your own types. For example
 
 ```swift
 public extension Container where Host: UITableView {
-  func didTapEasyClosureCell(_ action: @escaping (UITableViewCell) -> Void)) {
+  func didTapOnCell(_ action: @escaping (UITableViewCell) -> Void)) {
     // Your code here here
   }
 }
 
 // usage
 let tableView = UITableView()
-tableView.on.didTapEasyClosureCell { cell in
+tableView.on.didTapOnxCell { cell in
   
 }
 
