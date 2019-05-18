@@ -14,24 +14,24 @@ class ViewController: UIViewController {
         let cheap = self.cheapSwitch!
         let fast = self.fastSwitch!
 
-        func allEasyClosure() -> Bool {
+        func allOn() -> Bool {
             return [good, cheap, fast].filter({ $0.isOn }).count == 3
         }
 
-        good.on.valueChanged {
-            if allEasyClosure() {
+        good.on.valueChanged { _ in
+            if allOn() {
                 fast.setOn(false, animated: true)
             }
         }
 
-        cheap.on.valueChanged {
-            if allEasyClosure() {
+        cheap.on.valueChanged { _ in
+            if allOn() {
                 good.setOn(false, animated: true)
             }
         }
 
-        fast.on.valueChanged {
-            if allEasyClosure() {
+        fast.on.valueChanged { _ in
+            if allOn() {
                 cheap.setOn(false, animated: true)
             }
         }

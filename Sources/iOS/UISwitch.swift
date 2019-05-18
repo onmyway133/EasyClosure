@@ -9,16 +9,16 @@
 import UIKit
 
 public extension Container where Host: UISwitch {
-    func valueChanged(_ action: @escaping FloatAction) {
+    func valueChanged(_ action: @escaping BoolAction) {
         let target = SwitchTarget(host: host, action: action)
         targets[SwitchTarget.uniqueId] = target
     }
 }
 
 class SwitchTarget: NSObject {
-    var action: FloatAction?
+    var action: BoolAction?
 
-    init(host: UISwitch, action: @escaping FloatAction) {
+    init(host: UISwitch, action: @escaping BoolAction) {
         super.init()
 
         self.action = action
@@ -27,7 +27,7 @@ class SwitchTarget: NSObject {
 
     // MARK: - Action
 
-    @objc func handleChange(_ slider: UISlider) {
-        action?(slider.value)
+    @objc func handleChange(_ uiSwitch: UISwitch) {
+        action?(uiSwitch.isOn)
     }
 }
