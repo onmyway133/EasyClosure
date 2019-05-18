@@ -1,0 +1,16 @@
+PODS:
+  - EasyClosure (1.0.0)
+
+DEPENDENCIES:
+  - EasyClosure (from `../../`)
+
+EXTERNAL SOURCES:
+  'EasyClosure':
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  'EasyClosure': 1b72343b67154060b3fc792cb48f95a4a5628102
+
+PODFILE CHECKSUM: 4fe455e949c6ce89fbabcba9844b72bfb399ee3c
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="JWc-sJ-nXZ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="p0X-Fa-xYo">
+            <objects>
+                <viewController id="JWc-sJ-nXZ" customClass="ViewController" customModule="EasyClosureDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6a9-Bb-HiB"/>
+                        <viewControllerLayoutGuide type="bottom" id="S5u-yB-lP4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1A6-YY-WcF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TLT-U4-wpo">
+                                <rect key="frame" x="45" y="86" width="51" height="31"/>
+                                <color key="onTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aJF-hC-Hem">
+                                <rect key="frame" x="45" y="177" width="51" height="31"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aLQ-fW-VrJ">
+                                <rect key="frame" x="45" y="268" width="51" height="31"/>
+                                <color key="onTintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GOOD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UQ2-SX-oky">
+                                <rect key="frame" x="153" y="91" width="51" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHEAP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XnX-Ee-PDe">
+                                <rect key="frame" x="153" y="177" width="105" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="105" id="5ze-Xi-xpf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FAST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x3l-1q-8IT">
+                                <rect key="frame" x="153" y="273" width="132" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="132" id="CjD-oF-S5m"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="aJF-hC-Hem" firstAttribute="top" secondItem="TLT-U4-wpo" secondAttribute="bottom" constant="60" id="1iO-Go-xVd"/>
+                            <constraint firstItem="UQ2-SX-oky" firstAttribute="leading" secondItem="XnX-Ee-PDe" secondAttribute="leading" id="7zD-EC-leW"/>
+                            <constraint firstItem="aLQ-fW-VrJ" firstAttribute="centerY" secondItem="x3l-1q-8IT" secondAttribute="centerY" id="GZn-Mf-T8D"/>
+                            <constraint firstItem="aLQ-fW-VrJ" firstAttribute="top" secondItem="aJF-hC-Hem" secondAttribute="bottom" constant="60" id="H0s-4X-hKP"/>
+                            <constraint firstItem="aJF-hC-Hem" firstAttribute="leading" secondItem="aLQ-fW-VrJ" secondAttribute="leading" id="O5M-JG-iEt"/>
+                            <constraint firstItem="UQ2-SX-oky" firstAttribute="leading" secondItem="TLT-U4-wpo" secondAttribute="trailing" constant="59" id="S2P-uZ-nHs"/>
+                            <constraint firstItem="TLT-U4-wpo" firstAttribute="top" secondItem="6a9-Bb-HiB" secondAttribute="bottom" constant="66" id="dP0-qu-5cm"/>
+                            <constraint firstItem="XnX-Ee-PDe" firstAttribute="leading" secondItem="x3l-1q-8IT" secondAttribute="leading" id="jXO-yQ-SbW"/>
+                            <constraint firstItem="aJF-hC-Hem" firstAttribute="top" secondItem="XnX-Ee-PDe" secondAttribute="top" id="jxW-aJ-uOl"/>
+                            <constraint firstItem="TLT-U4-wpo" firstAttribute="centerY" secondItem="UQ2-SX-oky" secondAttribute="centerY" id="keL-rn-Bh7"/>
+                            <constraint firstItem="TLT-U4-wpo" firstAttribute="leading" secondItem="aJF-hC-Hem" secondAttribute="leading" id="kps-5C-toy"/>
+                            <constraint firstItem="TLT-U4-wpo" firstAttribute="leading" secondItem="1A6-YY-WcF" secondAttribute="leadingMargin" constant="29" id="zoS-u6-vEL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cheapSwitch" destination="aJF-hC-Hem" id="bHt-St-XPF"/>
+                        <outlet property="fastSwitch" destination="aLQ-fW-VrJ" id="oEj-cD-8NR"/>
+                        <outlet property="goodSwitch" destination="TLT-U4-wpo" id="E4t-fs-OlW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cs4-Up-Ozi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="72.799999999999997" y="201.94902548725639"/>
+        </scene>
+    </scenes>
+</document>

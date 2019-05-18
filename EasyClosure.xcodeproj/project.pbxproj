@@ -1,0 +1,961 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D24F80A41DAE22C4008185FF /* iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F80A31DAE22C4008185FF /* iOSTests.swift */; };
+		D24F80A81DAE2718008185FF /* SharedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F80A71DAE2718008185FF /* SharedTests.swift */; };
+		D24F80A91DAE2718008185FF /* SharedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F80A71DAE2718008185FF /* SharedTests.swift */; };
+		D24F80AB1DAE2727008185FF /* macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F80AA1DAE2727008185FF /* macOSTests.swift */; };
+		D25A28F91FB1C2ED008677F7 /* EasyClosure_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D25A28F71FB1C2ED008677F7 /* EasyClosure_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D25A28FD1FB1C37C008677F7 /* UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D0E1ECA387700FCB9A8 /* UIBarButtonItem.swift */; };
+		D25A28FE1FB1C37C008677F7 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D0F1ECA387700FCB9A8 /* UIButton.swift */; };
+		D25A28FF1FB1C37C008677F7 /* UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D101ECA387700FCB9A8 /* UIControl.swift */; };
+		D25A29011FB1C37C008677F7 /* UIGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D121ECA387700FCB9A8 /* UIGestureRecognizer.swift */; };
+		D25A29021FB1C37C008677F7 /* UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D131ECA387700FCB9A8 /* UISearchBar.swift */; };
+		D25A29041FB1C37C008677F7 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D151ECA387700FCB9A8 /* UITextField.swift */; };
+		D25A29051FB1C37C008677F7 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D161ECA387700FCB9A8 /* UITextView.swift */; };
+		D25A29061FB1C380008677F7 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D341ECA39F600FCB9A8 /* Container.swift */; };
+		D25A29071FB1C380008677F7 /* EasyClosureAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D351ECA39F600FCB9A8 /* EasyClosureAware.swift */; };
+		D25A29081FB1C380008677F7 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D361ECA39F600FCB9A8 /* Typealias.swift */; };
+		D25A29091FB1C380008677F7 /* KeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D2D1ECA399D00FCB9A8 /* KeyPath.swift */; };
+		D25A290A1FB1C380008677F7 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D2E1ECA399D00FCB9A8 /* Timer.swift */; };
+		D25A290B1FB1C380008677F7 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D3D1ECA3C3E00FCB9A8 /* Notification.swift */; };
+		D2668D191ECA387700FCB9A8 /* UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D0E1ECA387700FCB9A8 /* UIBarButtonItem.swift */; };
+		D2668D1A1ECA387700FCB9A8 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D0F1ECA387700FCB9A8 /* UIButton.swift */; };
+		D2668D1B1ECA387700FCB9A8 /* UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D101ECA387700FCB9A8 /* UIControl.swift */; };
+		D2668D1C1ECA387700FCB9A8 /* UIDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D111ECA387700FCB9A8 /* UIDatePicker.swift */; };
+		D2668D1D1ECA387700FCB9A8 /* UIGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D121ECA387700FCB9A8 /* UIGestureRecognizer.swift */; };
+		D2668D1E1ECA387700FCB9A8 /* UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D131ECA387700FCB9A8 /* UISearchBar.swift */; };
+		D2668D1F1ECA387700FCB9A8 /* UISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D141ECA387700FCB9A8 /* UISlider.swift */; };
+		D2668D201ECA387700FCB9A8 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D151ECA387700FCB9A8 /* UITextField.swift */; };
+		D2668D211ECA387700FCB9A8 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D161ECA387700FCB9A8 /* UITextView.swift */; };
+		D2668D2C1ECA388A00FCB9A8 /* NSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D2B1ECA388A00FCB9A8 /* NSButton.swift */; };
+		D2668D2F1ECA399D00FCB9A8 /* KeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D2D1ECA399D00FCB9A8 /* KeyPath.swift */; };
+		D2668D301ECA399D00FCB9A8 /* KeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D2D1ECA399D00FCB9A8 /* KeyPath.swift */; };
+		D2668D311ECA399D00FCB9A8 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D2E1ECA399D00FCB9A8 /* Timer.swift */; };
+		D2668D321ECA399D00FCB9A8 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D2E1ECA399D00FCB9A8 /* Timer.swift */; };
+		D2668D371ECA39F600FCB9A8 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D341ECA39F600FCB9A8 /* Container.swift */; };
+		D2668D381ECA39F600FCB9A8 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D341ECA39F600FCB9A8 /* Container.swift */; };
+		D2668D391ECA39F600FCB9A8 /* EasyClosureAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D351ECA39F600FCB9A8 /* EasyClosureAware.swift */; };
+		D2668D3A1ECA39F600FCB9A8 /* EasyClosureAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D351ECA39F600FCB9A8 /* EasyClosureAware.swift */; };
+		D2668D3B1ECA39F600FCB9A8 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D361ECA39F600FCB9A8 /* Typealias.swift */; };
+		D2668D3C1ECA39F600FCB9A8 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D361ECA39F600FCB9A8 /* Typealias.swift */; };
+		D2668D3E1ECA3C3E00FCB9A8 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D3D1ECA3C3E00FCB9A8 /* Notification.swift */; };
+		D2668D3F1ECA3C3E00FCB9A8 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D3D1ECA3C3E00FCB9A8 /* Notification.swift */; };
+		D2668D411ECA4D4400FCB9A8 /* TestCase+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D401ECA4D4400FCB9A8 /* TestCase+Extensions.swift */; };
+		D2668D421ECA4D4400FCB9A8 /* TestCase+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D401ECA4D4400FCB9A8 /* TestCase+Extensions.swift */; };
+		D5B2E8AA1C3A780C00C0327D /* EasyClosure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* EasyClosure.framework */; };
+		D5C6294A1C3A7FAA007F7B7C /* EasyClosure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* EasyClosure.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5B2E8AB1C3A780C00C0327D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5B2E8961C3A780C00C0327D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B2E89E1C3A780C00C0327D;
+			remoteInfo = EasyClosure;
+		};
+		D5C6294B1C3A7FAA007F7B7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5B2E8961C3A780C00C0327D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5C6293F1C3A7FAA007F7B7C;
+			remoteInfo = "EasyClosure-Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D24F80A31DAE22C4008185FF /* iOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSTests.swift; sourceTree = "<group>"; };
+		D24F80A71DAE2718008185FF /* SharedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedTests.swift; sourceTree = "<group>"; };
+		D24F80AA1DAE2727008185FF /* macOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = macOSTests.swift; sourceTree = "<group>"; };
+		D25A28F51FB1C2ED008677F7 /* EasyClosure_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyClosure_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25A28F71FB1C2ED008677F7 /* EasyClosure_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyClosure_tvOS.h; sourceTree = "<group>"; };
+		D25A28F81FB1C2ED008677F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2668D0E1ECA387700FCB9A8 /* UIBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem.swift; sourceTree = "<group>"; };
+		D2668D0F1ECA387700FCB9A8 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		D2668D101ECA387700FCB9A8 /* UIControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIControl.swift; sourceTree = "<group>"; };
+		D2668D111ECA387700FCB9A8 /* UIDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDatePicker.swift; sourceTree = "<group>"; };
+		D2668D121ECA387700FCB9A8 /* UIGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGestureRecognizer.swift; sourceTree = "<group>"; };
+		D2668D131ECA387700FCB9A8 /* UISearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISearchBar.swift; sourceTree = "<group>"; };
+		D2668D141ECA387700FCB9A8 /* UISlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISlider.swift; sourceTree = "<group>"; };
+		D2668D151ECA387700FCB9A8 /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		D2668D161ECA387700FCB9A8 /* UITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
+		D2668D2B1ECA388A00FCB9A8 /* NSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSButton.swift; sourceTree = "<group>"; };
+		D2668D2D1ECA399D00FCB9A8 /* KeyPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPath.swift; sourceTree = "<group>"; };
+		D2668D2E1ECA399D00FCB9A8 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		D2668D341ECA39F600FCB9A8 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		D2668D351ECA39F600FCB9A8 /* EasyClosureAware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyClosureAware.swift; sourceTree = "<group>"; };
+		D2668D361ECA39F600FCB9A8 /* Typealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		D2668D3D1ECA3C3E00FCB9A8 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		D2668D401ECA4D4400FCB9A8 /* TestCase+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TestCase+Extensions.swift"; sourceTree = "<group>"; };
+		D500FD111C3AABED00782D78 /* Playground-iOS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-iOS.playground"; sourceTree = "<group>"; };
+		D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-Mac.playground"; sourceTree = "<group>"; };
+		D5B2E89F1C3A780C00C0327D /* EasyClosure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyClosure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B2E8A91C3A780C00C0327D /* EasyClosure-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EasyClosure-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C629401C3A7FAA007F7B7C /* EasyClosure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyClosure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C629491C3A7FAA007F7B7C /* EasyClosure-macOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EasyClosure-macOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C6298B1C3A8BBD007F7B7C /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		D5C6298C1C3A8BBD007F7B7C /* Info-Mac.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Mac.plist"; sourceTree = "<group>"; };
+		D5C629901C3A8BDA007F7B7C /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		D5C629911C3A8BDA007F7B7C /* Info-Mac.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Mac.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D25A28F11FB1C2ED008677F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runEasyClosurelyForDeploymentPostprocessing = 0;
+		};
+		D5B2E89B1C3A780C00C0327D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runEasyClosurelyForDeploymentPostprocessing = 0;
+		};
+		D5B2E8A61C3A780C00C0327D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B2E8AA1C3A780C00C0327D /* EasyClosure.framework in Frameworks */,
+			);
+			runEasyClosurelyForDeploymentPostprocessing = 0;
+		};
+		D5C6293C1C3A7FAA007F7B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runEasyClosurelyForDeploymentPostprocessing = 0;
+		};
+		D5C629461C3A7FAA007F7B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C6294A1C3A7FAA007F7B7C /* EasyClosure.framework in Frameworks */,
+			);
+			runEasyClosurelyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D25A28F61FB1C2ED008677F7 /* EasyClosure-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				D25A28F71FB1C2ED008677F7 /* EasyClosure_tvOS.h */,
+				D25A28F81FB1C2ED008677F7 /* Info.plist */,
+			);
+			path = "EasyClosure-tvOS";
+			sourceTree = "<group>";
+		};
+		D2668D331ECA39F600FCB9A8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D2668D341ECA39F600FCB9A8 /* Container.swift */,
+				D2668D351ECA39F600FCB9A8 /* EasyClosureAware.swift */,
+				D2668D361ECA39F600FCB9A8 /* Typealias.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D5B2E8951C3A780C00C0327D = {
+			isa = PBXGroup;
+			children = (
+				D500FD111C3AABED00782D78 /* Playground-iOS.playground */,
+				D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */,
+				D5C629691C3A809D007F7B7C /* Sources */,
+				D5C6295C1C3A800E007F7B7C /* EasyClosure */,
+				D5C6298F1C3A8BDA007F7B7C /* EasyClosureTests */,
+				D25A28F61FB1C2ED008677F7 /* EasyClosure-tvOS */,
+				D5B2E8A01C3A780C00C0327D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5B2E8A01C3A780C00C0327D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5B2E89F1C3A780C00C0327D /* EasyClosure.framework */,
+				D5B2E8A91C3A780C00C0327D /* EasyClosure-iOS-Tests.xctest */,
+				D5C629401C3A7FAA007F7B7C /* EasyClosure.framework */,
+				D5C629491C3A7FAA007F7B7C /* EasyClosure-macOS-Tests.xctest */,
+				D25A28F51FB1C2ED008677F7 /* EasyClosure_tvOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5C6295C1C3A800E007F7B7C /* EasyClosure */ = {
+			isa = PBXGroup;
+			children = (
+				D5C6298B1C3A8BBD007F7B7C /* Info-iOS.plist */,
+				D5C6298C1C3A8BBD007F7B7C /* Info-Mac.plist */,
+			);
+			path = EasyClosure;
+			sourceTree = "<group>";
+		};
+		D5C629691C3A809D007F7B7C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D5C6296A1C3A809D007F7B7C /* iOS */,
+				D5C6296C1C3A809D007F7B7C /* Mac */,
+				D5C6296E1C3A809D007F7B7C /* Shared */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D5C6296A1C3A809D007F7B7C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D2668D0E1ECA387700FCB9A8 /* UIBarButtonItem.swift */,
+				D2668D0F1ECA387700FCB9A8 /* UIButton.swift */,
+				D2668D101ECA387700FCB9A8 /* UIControl.swift */,
+				D2668D111ECA387700FCB9A8 /* UIDatePicker.swift */,
+				D2668D121ECA387700FCB9A8 /* UIGestureRecognizer.swift */,
+				D2668D131ECA387700FCB9A8 /* UISearchBar.swift */,
+				D2668D141ECA387700FCB9A8 /* UISlider.swift */,
+				D2668D151ECA387700FCB9A8 /* UITextField.swift */,
+				D2668D161ECA387700FCB9A8 /* UITextView.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		D5C6296C1C3A809D007F7B7C /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				D2668D2B1ECA388A00FCB9A8 /* NSButton.swift */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		D5C6296E1C3A809D007F7B7C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D2668D331ECA39F600FCB9A8 /* Core */,
+				D2668D2D1ECA399D00FCB9A8 /* KeyPath.swift */,
+				D2668D2E1ECA399D00FCB9A8 /* Timer.swift */,
+				D2668D3D1ECA3C3E00FCB9A8 /* Notification.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D5C6298F1C3A8BDA007F7B7C /* EasyClosureTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5C629901C3A8BDA007F7B7C /* Info-iOS.plist */,
+				D5C629911C3A8BDA007F7B7C /* Info-Mac.plist */,
+				D5C629921C3A8BDA007F7B7C /* iOS */,
+				D5C629941C3A8BDA007F7B7C /* Mac */,
+				D5C629961C3A8BDA007F7B7C /* Shared */,
+			);
+			path = EasyClosureTests;
+			sourceTree = "<group>";
+		};
+		D5C629921C3A8BDA007F7B7C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D24F80A31DAE22C4008185FF /* iOSTests.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		D5C629941C3A8BDA007F7B7C /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				D24F80AA1DAE2727008185FF /* macOSTests.swift */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		D5C629961C3A8BDA007F7B7C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D2668D401ECA4D4400FCB9A8 /* TestCase+Extensions.swift */,
+				D24F80A71DAE2718008185FF /* SharedTests.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D25A28F21FB1C2ED008677F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25A28F91FB1C2ED008677F7 /* EasyClosure_tvOS.h in Headers */,
+			);
+			runEasyClosurelyForDeploymentPostprocessing = 0;
+		};
+		D5B2E89C1C3A780C00C0327D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runEasyClosurelyForDeploymentPostprocessing = 0;
+		};
+		D5C6293D1C3A7FAA007F7B7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runEasyClosurelyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D25A28F41FB1C2ED008677F7 /* EasyClosure-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25A28FA1FB1C2ED008677F7 /* Build configuration list for PBXNativeTarget "EasyClosure-tvOS" */;
+			buildPhases = (
+				D25A28F01FB1C2ED008677F7 /* Sources */,
+				D25A28F11FB1C2ED008677F7 /* Frameworks */,
+				D25A28F21FB1C2ED008677F7 /* Headers */,
+				D25A28F31FB1C2ED008677F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EasyClosure-tvOS";
+			productName = "EasyClosure-tvOS";
+			productReference = D25A28F51FB1C2ED008677F7 /* EasyClosure_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5B2E89E1C3A780C00C0327D /* EasyClosure-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B2E8B31C3A780C00C0327D /* Build configuration list for PBXNativeTarget "EasyClosure-iOS" */;
+			buildPhases = (
+				D5B2E89A1C3A780C00C0327D /* Sources */,
+				D5B2E89B1C3A780C00C0327D /* Frameworks */,
+				D5B2E89C1C3A780C00C0327D /* Headers */,
+				D5B2E89D1C3A780C00C0327D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EasyClosure-iOS";
+			productName = EasyClosure;
+			productReference = D5B2E89F1C3A780C00C0327D /* EasyClosure.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5B2E8A81C3A780C00C0327D /* EasyClosure-iOS-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B2E8B61C3A780C00C0327D /* Build configuration list for PBXNativeTarget "EasyClosure-iOS-Tests" */;
+			buildPhases = (
+				D5B2E8A51C3A780C00C0327D /* Sources */,
+				D5B2E8A61C3A780C00C0327D /* Frameworks */,
+				D5B2E8A71C3A780C00C0327D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5B2E8AC1C3A780C00C0327D /* PBXTargetDependency */,
+			);
+			name = "EasyClosure-iOS-Tests";
+			productName = EasyClosureTests;
+			productReference = D5B2E8A91C3A780C00C0327D /* EasyClosure-iOS-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5C6293F1C3A7FAA007F7B7C /* EasyClosure-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C629511C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "EasyClosure-macOS" */;
+			buildPhases = (
+				D5C6293B1C3A7FAA007F7B7C /* Sources */,
+				D5C6293C1C3A7FAA007F7B7C /* Frameworks */,
+				D5C6293D1C3A7FAA007F7B7C /* Headers */,
+				D5C6293E1C3A7FAA007F7B7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EasyClosure-macOS";
+			productName = "EasyClosure-Mac";
+			productReference = D5C629401C3A7FAA007F7B7C /* EasyClosure.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5C629481C3A7FAA007F7B7C /* EasyClosure-macOS-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C629541C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "EasyClosure-macOS-Tests" */;
+			buildPhases = (
+				D5C629451C3A7FAA007F7B7C /* Sources */,
+				D5C629461C3A7FAA007F7B7C /* Frameworks */,
+				D5C629471C3A7FAA007F7B7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5C6294C1C3A7FAA007F7B7C /* PBXTargetDependency */,
+			);
+			name = "EasyClosure-macOS-Tests";
+			productName = "EasyClosure-MacTests";
+			productReference = D5C629491C3A7FAA007F7B7C /* EasyClosure-macOS-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5B2E8961C3A780C00C0327D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Khoa Pham";
+				TargetAttributes = {
+					D25A28F41FB1C2ED008677F7 = {
+						CreatedEasyClosureToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D5B2E89E1C3A780C00C0327D = {
+						CreatedEasyClosureToolsVersion = 7.2;
+						LastSwiftMigration = 0830;
+					};
+					D5B2E8A81C3A780C00C0327D = {
+						CreatedEasyClosureToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+					};
+					D5C6293F1C3A7FAA007F7B7C = {
+						CreatedEasyClosureToolsVersion = 7.2;
+					};
+					D5C629481C3A7FAA007F7B7C = {
+						CreatedEasyClosureToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D5B2E8991C3A780C00C0327D /* Build configuration list for PBXProject "EasyClosure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D5B2E8951C3A780C00C0327D;
+			productRefGroup = D5B2E8A01C3A780C00C0327D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5B2E89E1C3A780C00C0327D /* EasyClosure-iOS */,
+				D5C6293F1C3A7FAA007F7B7C /* EasyClosure-macOS */,
+				D5B2E8A81C3A780C00C0327D /* EasyClosure-iOS-Tests */,
+				D5C629481C3A7FAA007F7B7C /* EasyClosure-macOS-Tests */,
+				D25A28F41FB1C2ED008677F7 /* EasyClosure-tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D25A28F31FB1C2ED008677F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runEasyClosurelyForDeploymentPostprocessing = 0;
+		};
+		D5B2E89D1C3A780C00C0327D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runEasyClosurelyForDeploymentPostprocessing = 0;
+		};
+		D5B2E8A71C3A780C00C0327D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runEasyClosurelyForDeploymentPostprocessing = 0;
+		};
+		D5C6293E1C3A7FAA007F7B7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runEasyClosurelyForDeploymentPostprocessing = 0;
+		};
+		D5C629471C3A7FAA007F7B7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runEasyClosurelyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D25A28F01FB1C2ED008677F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25A28FD1FB1C37C008677F7 /* UIBarButtonItem.swift in Sources */,
+				D25A28FE1FB1C37C008677F7 /* UIButton.swift in Sources */,
+				D25A28FF1FB1C37C008677F7 /* UIControl.swift in Sources */,
+				D25A29041FB1C37C008677F7 /* UITextField.swift in Sources */,
+				D25A29051FB1C37C008677F7 /* UITextView.swift in Sources */,
+				D25A29011FB1C37C008677F7 /* UIGestureRecognizer.swift in Sources */,
+				D25A29071FB1C380008677F7 /* EasyClosureAware.swift in Sources */,
+				D25A29091FB1C380008677F7 /* KeyPath.swift in Sources */,
+				D25A290A1FB1C380008677F7 /* Timer.swift in Sources */,
+				D25A29061FB1C380008677F7 /* Container.swift in Sources */,
+				D25A290B1FB1C380008677F7 /* Notification.swift in Sources */,
+				D25A29081FB1C380008677F7 /* Typealias.swift in Sources */,
+				D25A29021FB1C37C008677F7 /* UISearchBar.swift in Sources */,
+			);
+			runEasyClosurelyForDeploymentPostprocessing = 0;
+		};
+		D5B2E89A1C3A780C00C0327D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2668D1F1ECA387700FCB9A8 /* UISlider.swift in Sources */,
+				D2668D371ECA39F600FCB9A8 /* Container.swift in Sources */,
+				D2668D201ECA387700FCB9A8 /* UITextField.swift in Sources */,
+				D2668D211ECA387700FCB9A8 /* UITextView.swift in Sources */,
+				D2668D1B1ECA387700FCB9A8 /* UIControl.swift in Sources */,
+				D2668D191ECA387700FCB9A8 /* UIBarButtonItem.swift in Sources */,
+				D2668D3B1ECA39F600FCB9A8 /* Typealias.swift in Sources */,
+				D2668D1D1ECA387700FCB9A8 /* UIGestureRecognizer.swift in Sources */,
+				D2668D2F1ECA399D00FCB9A8 /* KeyPath.swift in Sources */,
+				D2668D311ECA399D00FCB9A8 /* Timer.swift in Sources */,
+				D2668D1C1ECA387700FCB9A8 /* UIDatePicker.swift in Sources */,
+				D2668D3E1ECA3C3E00FCB9A8 /* Notification.swift in Sources */,
+				D2668D391ECA39F600FCB9A8 /* EasyClosureAware.swift in Sources */,
+				D2668D1E1ECA387700FCB9A8 /* UISearchBar.swift in Sources */,
+				D2668D1A1ECA387700FCB9A8 /* UIButton.swift in Sources */,
+			);
+			runEasyClosurelyForDeploymentPostprocessing = 0;
+		};
+		D5B2E8A51C3A780C00C0327D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24F80A41DAE22C4008185FF /* iOSTests.swift in Sources */,
+				D24F80A81DAE2718008185FF /* SharedTests.swift in Sources */,
+				D2668D411ECA4D4400FCB9A8 /* TestCase+Extensions.swift in Sources */,
+			);
+			runEasyClosurelyForDeploymentPostprocessing = 0;
+		};
+		D5C6293B1C3A7FAA007F7B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2668D301ECA399D00FCB9A8 /* KeyPath.swift in Sources */,
+				D2668D381ECA39F600FCB9A8 /* Container.swift in Sources */,
+				D2668D321ECA399D00FCB9A8 /* Timer.swift in Sources */,
+				D2668D3F1ECA3C3E00FCB9A8 /* Notification.swift in Sources */,
+				D2668D3A1ECA39F600FCB9A8 /* EasyClosureAware.swift in Sources */,
+				D2668D3C1ECA39F600FCB9A8 /* Typealias.swift in Sources */,
+				D2668D2C1ECA388A00FCB9A8 /* NSButton.swift in Sources */,
+			);
+			runEasyClosurelyForDeploymentPostprocessing = 0;
+		};
+		D5C629451C3A7FAA007F7B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24F80AB1DAE2727008185FF /* macOSTests.swift in Sources */,
+				D24F80A91DAE2718008185FF /* SharedTests.swift in Sources */,
+				D2668D421ECA4D4400FCB9A8 /* TestCase+Extensions.swift in Sources */,
+			);
+			runEasyClosurelyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5B2E8AC1C3A780C00C0327D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5B2E89E1C3A780C00C0327D /* EasyClosure-iOS */;
+			targetProxy = D5B2E8AB1C3A780C00C0327D /* PBXContainerItemProxy */;
+		};
+		D5C6294C1C3A7FAA007F7B7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5C6293F1C3A7FAA007F7B7C /* EasyClosure-macOS */;
+			targetProxy = D5C6294B1C3A7FAA007F7B7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D25A28FB1FB1C2ED008677F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "EasyClosure-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.EasyClosure-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		D25A28FC1FB1C2ED008677F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "EasyClosure-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.EasyClosure-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		D5B2E8B11C3A780C00C0327D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-EasyClosureone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5B2E8B21C3A780C00C0327D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5B2E8B41C3A780C00C0327D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/EasyClosure/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.EasyClosure-iOS";
+				PRODUCT_NAME = EasyClosure;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-EasyClosureone";
+			};
+			name = Debug;
+		};
+		D5B2E8B51C3A780C00C0327D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/EasyClosure/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.EasyClosure-iOS";
+				PRODUCT_NAME = EasyClosure;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D5B2E8B71C3A780C00C0327D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/EasyClosureTests/Info-iOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.EasyClosureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-EasyClosureone";
+			};
+			name = Debug;
+		};
+		D5B2E8B81C3A780C00C0327D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/EasyClosureTests/Info-iOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.EasyClosureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5C629521C3A7FAA007F7B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/EasyClosure/Info-Mac.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.EasyClosure-Mac";
+				PRODUCT_NAME = EasyClosure;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-EasyClosureone";
+			};
+			name = Debug;
+		};
+		D5C629531C3A7FAA007F7B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/EasyClosure/Info-Mac.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.EasyClosure-Mac";
+				PRODUCT_NAME = EasyClosure;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D5C629551C3A7FAA007F7B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/EasyClosureTests/Info-Mac.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.EasyClosure-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D5C629561C3A7FAA007F7B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/EasyClosureTests/Info-Mac.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.EasyClosure-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D25A28FA1FB1C2ED008677F7 /* Build configuration list for PBXNativeTarget "EasyClosure-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25A28FB1FB1C2ED008677F7 /* Debug */,
+				D25A28FC1FB1C2ED008677F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B2E8991C3A780C00C0327D /* Build configuration list for PBXProject "EasyClosure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B2E8B11C3A780C00C0327D /* Debug */,
+				D5B2E8B21C3A780C00C0327D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B2E8B31C3A780C00C0327D /* Build configuration list for PBXNativeTarget "EasyClosure-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B2E8B41C3A780C00C0327D /* Debug */,
+				D5B2E8B51C3A780C00C0327D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B2E8B61C3A780C00C0327D /* Build configuration list for PBXNativeTarget "EasyClosure-iOS-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B2E8B71C3A780C00C0327D /* Debug */,
+				D5B2E8B81C3A780C00C0327D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5C629511C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "EasyClosure-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C629521C3A7FAA007F7B7C /* Debug */,
+				D5C629531C3A7FAA007F7B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5C629541C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "EasyClosure-macOS-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C629551C3A7FAA007F7B7C /* Debug */,
+				D5C629561C3A7FAA007F7B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5B2E8961C3A780C00C0327D /* Project object */;
+}
