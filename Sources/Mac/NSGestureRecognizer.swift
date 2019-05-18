@@ -9,7 +9,6 @@
 import AppKit
 
 public extension Container where Host: NSGestureRecognizer {
-
     func occur(_ action: @escaping Action) {
         let target = GestureTarget(host: host, action: action)
         targets[GestureTarget.uniqueId] = target
