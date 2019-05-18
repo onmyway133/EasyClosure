@@ -9,26 +9,26 @@ import AppKit
 
 public extension Container where Host: NSButton {
 
-  func tap(_ action: @escaping Action) {
-    let target = ButtonTarget(host: host, action: action)
-    targets.append(target)
-  }
+    func tap(_ action: @escaping Action) {
+        let target = ButtonTarget(host: host, action: action)
+        targets.append(target)
+    }
 }
 
 class ButtonTarget: NSObject {
-  var action: Action?
+    var action: Action?
 
-  init(host: NSButton, action: @escaping Action) {
-    super.init()
+    init(host: NSButton, action: @escaping Action) {
+        super.init()
 
-    self.action = action
-    host.target = self
-    host.action = #selector(handleTap)
-  }
+        self.action = action
+        host.target = self
+        host.action = #selector(handleTap)
+    }
 
-  // MARK: - Action
+    // MARK: - Action
 
-  @objc func handleTap() {
-    action?()
-  }
+    @objc func handleTap() {
+        action?()
+    }
 }

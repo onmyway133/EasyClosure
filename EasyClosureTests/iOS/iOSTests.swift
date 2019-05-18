@@ -3,55 +3,55 @@ import XCTest
 
 class EasyClosureTests: XCTestCase {
 
-  func testButton() {
-    let button = UIButton()
+    func testButton() {
+        let button = UIButton()
 
-    var called = false
-    button.on.tap {
-      called = true
+        var called = false
+        button.on.tap {
+            called = true
+        }
+
+        button.sendActions(for: .touchUpInside)
+
+        wait(for: 0.5)
+        XCTAssertTrue(called)
     }
 
-    button.sendActions(for: .touchUpInside)
+    func testKeyPath() {
+        let observer = NSObject()
+        let label = UILabel()
 
-    wait(for: 0.5)
-    XCTAssertTrue(called)
-  }
+        var text: String?
+        observer.on.observe(object: label, keyPath: #keyPath(UILabel.text)) {
+            text = $0 as? String
+        }
 
-  func testKeyPath() {
-    let observer = NSObject()
-    let label = UILabel()
+        label.text = "hello"
 
-    var text: String?
-    observer.on.observe(object: label, keyPath: #keyPath(UILabel.text)) {
-      text = $0 as? String
+        wait(for: 0.1)
+        XCTAssertEqual(text, "hello")
+        XCTAssertEqual(observer.on.keyPathTarget.items.count, 1)
+
+        observer.on.unobserve(object: label)
+        XCTAssertEqual(observer.on.keyPathTarget.items.count, 0)
     }
 
-    label.text = "hello"
+    func testNotification() {
+        let observer = NSObject()
 
-    wait(for: 0.1)
-    XCTAssertEqual(text, "hello")
-    XCTAssertEqual(observer.on.keyPathTarget.items.count, 1)
+        var text: String?
+        observer.on.observe(notification: Notification.Name("test")) {
+            text = $0.userInfo?["key"] as? String
+        }
 
-    observer.on.unobserve(object: label)
-    XCTAssertEqual(observer.on.keyPathTarget.items.count, 0)
-  }
+        NotificationCenter.default.post(name: Notification.Name("test"), object: nil, userInfo: ["key": "value"])
 
-  func testNotification() {
-    let observer = NSObject()
+        wait(for: 0.1)
+        XCTAssertEqual(text, "value")
 
-    var text: String?
-    observer.on.observe(notification: Notification.Name("test")) {
-      text = $0.userInfo?["key"] as? String
+        XCTAssertEqual(observer.on.notificationTarget.mapping.count, 1)
+
+        observer.on.unobserve(notification: Notification.Name("test"))
+        XCTAssertEqual(observer.on.notificationTarget.mapping.count, 0)
     }
-
-    NotificationCenter.default.post(name: Notification.Name("test"), object: nil, userInfo: ["key": "value"])
-
-    wait(for: 0.1)
-    XCTAssertEqual(text, "value")
-
-    XCTAssertEqual(observer.on.notificationTarget.mapping.count, 1)
-
-    observer.on.unobserve(notification: Notification.Name("test"))
-    XCTAssertEqual(observer.on.notificationTarget.mapping.count, 0)
-  }
 }

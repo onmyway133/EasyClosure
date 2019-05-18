@@ -8,27 +8,27 @@
 import Foundation
 
 private struct AssociatedKey {
-  static var key = "EasyClosure_on"
+    static var key = "EasyClosure_on"
 }
 
 public protocol EasyClosureAware: class {
-  associatedtype EasyClosureAwareHostType: AnyObject
+    associatedtype EasyClosureAwareHostType: AnyObject
 
-  var on: Container<EasyClosureAwareHostType> { get }
+    var on: Container<EasyClosureAwareHostType> { get }
 }
 
 extension EasyClosureAware {
-  public var on: Container<Self> {
-    get {
-      if let value = objc_getAssociatedObject(self, &AssociatedKey.key) as? Container<Self> {
-        return value
-      }
+    public var on: Container<Self> {
+        get {
+            if let value = objc_getAssociatedObject(self, &AssociatedKey.key) as? Container<Self> {
+                return value
+            }
 
-      let value = Container(host: self)
-      objc_setAssociatedObject(self, &AssociatedKey.key, value, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
-      return value
+            let value = Container(host: self)
+            objc_setAssociatedObject(self, &AssociatedKey.key, value, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            return value
+        }
     }
-  }
 }
 
 extension NSObject: EasyClosureAware { }
