@@ -46,19 +46,19 @@ func allOn() -> Bool {
   return [good, cheap, fast].filter({ $0.isOn }).count == 3
 }
 
-good.on.change {
+good.on.change { _ in
   if allOn() {
     fast.setOn(false, animated: true)
   }
 }
 
-cheap.on.change {
+cheap.on.change { _ in
   if allOn() {
     good.setOn(false, animated: true)
   }
 }
 
-fast.on.change {
+fast.on.change { _ in
   if allOn() {
     cheap.setOn(false, animated: true)
   }
