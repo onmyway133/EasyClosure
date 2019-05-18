@@ -14,14 +14,12 @@
 		D25A28F91FB1C2ED008677F7 /* EasyClosure_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D25A28F71FB1C2ED008677F7 /* EasyClosure_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D25A28FD1FB1C37C008677F7 /* UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D0E1ECA387700FCB9A8 /* UIBarButtonItem.swift */; };
 		D25A28FE1FB1C37C008677F7 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D0F1ECA387700FCB9A8 /* UIButton.swift */; };
-		D25A28FF1FB1C37C008677F7 /* UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D101ECA387700FCB9A8 /* UIControl.swift */; };
 		D25A29011FB1C37C008677F7 /* UIGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D121ECA387700FCB9A8 /* UIGestureRecognizer.swift */; };
 		D25A29021FB1C37C008677F7 /* UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D131ECA387700FCB9A8 /* UISearchBar.swift */; };
 		D25A29041FB1C37C008677F7 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D151ECA387700FCB9A8 /* UITextField.swift */; };
 		D25A29051FB1C37C008677F7 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D161ECA387700FCB9A8 /* UITextView.swift */; };
 		D2668D191ECA387700FCB9A8 /* UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D0E1ECA387700FCB9A8 /* UIBarButtonItem.swift */; };
 		D2668D1A1ECA387700FCB9A8 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D0F1ECA387700FCB9A8 /* UIButton.swift */; };
-		D2668D1B1ECA387700FCB9A8 /* UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D101ECA387700FCB9A8 /* UIControl.swift */; };
 		D2668D1C1ECA387700FCB9A8 /* UIDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D111ECA387700FCB9A8 /* UIDatePicker.swift */; };
 		D2668D1D1ECA387700FCB9A8 /* UIGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D121ECA387700FCB9A8 /* UIGestureRecognizer.swift */; };
 		D2668D1E1ECA387700FCB9A8 /* UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D131ECA387700FCB9A8 /* UISearchBar.swift */; };
@@ -44,6 +42,7 @@
 		D2BBB9B4229099FE0061F75F /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9B3229099FE0061F75F /* NSObject+Extension.swift */; };
 		D2BBB9B522909A640061F75F /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9B3229099FE0061F75F /* NSObject+Extension.swift */; };
 		D2BBB9B622909A650061F75F /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9B3229099FE0061F75F /* NSObject+Extension.swift */; };
+		D2BBB9B922909F690061F75F /* UISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9B822909F690061F75F /* UISwitch.swift */; };
 		D5B2E8AA1C3A780C00C0327D /* EasyClosure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* EasyClosure.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* EasyClosure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* EasyClosure.framework */; };
 /* End PBXBuildFile section */
@@ -74,7 +73,6 @@
 		D25A28F81FB1C2ED008677F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2668D0E1ECA387700FCB9A8 /* UIBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem.swift; sourceTree = "<group>"; };
 		D2668D0F1ECA387700FCB9A8 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
-		D2668D101ECA387700FCB9A8 /* UIControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIControl.swift; sourceTree = "<group>"; };
 		D2668D111ECA387700FCB9A8 /* UIDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDatePicker.swift; sourceTree = "<group>"; };
 		D2668D121ECA387700FCB9A8 /* UIGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGestureRecognizer.swift; sourceTree = "<group>"; };
 		D2668D131ECA387700FCB9A8 /* UISearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISearchBar.swift; sourceTree = "<group>"; };
@@ -89,6 +87,7 @@
 		D2BBB9B12290947F0061F75F /* NSGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSGestureRecognizer.swift; sourceTree = "<group>"; };
 		D2BBB9B3229099FE0061F75F /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
 		D2BBB9B722909CD20061F75F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D2BBB9B822909F690061F75F /* UISwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitch.swift; sourceTree = "<group>"; };
 		D500FD111C3AABED00782D78 /* Playground-iOS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-iOS.playground"; sourceTree = "<group>"; };
 		D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-Mac.playground"; sourceTree = "<group>"; };
 		D5B2E89F1C3A780C00C0327D /* EasyClosure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyClosure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,13 +200,13 @@
 			children = (
 				D2668D0E1ECA387700FCB9A8 /* UIBarButtonItem.swift */,
 				D2668D0F1ECA387700FCB9A8 /* UIButton.swift */,
-				D2668D101ECA387700FCB9A8 /* UIControl.swift */,
 				D2668D111ECA387700FCB9A8 /* UIDatePicker.swift */,
 				D2668D121ECA387700FCB9A8 /* UIGestureRecognizer.swift */,
 				D2668D131ECA387700FCB9A8 /* UISearchBar.swift */,
 				D2668D141ECA387700FCB9A8 /* UISlider.swift */,
 				D2668D151ECA387700FCB9A8 /* UITextField.swift */,
 				D2668D161ECA387700FCB9A8 /* UITextView.swift */,
+				D2BBB9B822909F690061F75F /* UISwitch.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -485,7 +484,6 @@
 				D25A28FD1FB1C37C008677F7 /* UIBarButtonItem.swift in Sources */,
 				D2BBB9AD2290938D0061F75F /* Container.swift in Sources */,
 				D25A28FE1FB1C37C008677F7 /* UIButton.swift in Sources */,
-				D25A28FF1FB1C37C008677F7 /* UIControl.swift in Sources */,
 				D25A29041FB1C37C008677F7 /* UITextField.swift in Sources */,
 				D25A29051FB1C37C008677F7 /* UITextView.swift in Sources */,
 				D25A29011FB1C37C008677F7 /* UIGestureRecognizer.swift in Sources */,
@@ -501,10 +499,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2668D1F1ECA387700FCB9A8 /* UISlider.swift in Sources */,
+				D2BBB9B922909F690061F75F /* UISwitch.swift in Sources */,
 				D2668D201ECA387700FCB9A8 /* UITextField.swift in Sources */,
 				D2668D211ECA387700FCB9A8 /* UITextView.swift in Sources */,
 				D2BBB9B522909A640061F75F /* NSObject+Extension.swift in Sources */,
-				D2668D1B1ECA387700FCB9A8 /* UIControl.swift in Sources */,
 				D2BBB9AE2290938D0061F75F /* Typealias.swift in Sources */,
 				D2668D191ECA387700FCB9A8 /* UIBarButtonItem.swift in Sources */,
 				D2668D1D1ECA387700FCB9A8 /* UIGestureRecognizer.swift in Sources */,
