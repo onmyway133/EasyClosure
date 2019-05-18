@@ -48,19 +48,19 @@ func allOn() -> Bool {
 
 good.on.change {
   if allEasyClosure() {
-    fast.setEasyClosure(false, animated: true)
+    fast.setOn(false, animated: true)
   }
 }
 
 cheap.on.change {
   if allEasyClosure() {
-    good.setEasyClosure(false, animated: true)
+    good.setOn(false, animated: true)
   }
 }
 
 fast.on.change {
   if allEasyClosure() {
-    cheap.setEasyClosure(false, animated: true)
+    cheap.setOn(false, animated: true)
   }
 }
 ```
