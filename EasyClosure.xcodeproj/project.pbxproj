@@ -40,15 +40,16 @@
 		D2668D3F1ECA3C3E00FCB9A8 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D3D1ECA3C3E00FCB9A8 /* Notification.swift */; };
 		D2668D411ECA4D4400FCB9A8 /* TestCase+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D401ECA4D4400FCB9A8 /* TestCase+Extensions.swift */; };
 		D2668D421ECA4D4400FCB9A8 /* TestCase+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2668D401ECA4D4400FCB9A8 /* TestCase+Extensions.swift */; };
-		D2BBB9A82290938D0061F75F /* OnAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9A52290938D0061F75F /* OnAware.swift */; };
-		D2BBB9A92290938D0061F75F /* OnAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9A52290938D0061F75F /* OnAware.swift */; };
-		D2BBB9AA2290938D0061F75F /* OnAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9A52290938D0061F75F /* OnAware.swift */; };
+		D2BBB9A82290938D0061F75F /* EasyClosureAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9A52290938D0061F75F /* EasyClosureAware.swift */; };
+		D2BBB9A92290938D0061F75F /* EasyClosureAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9A52290938D0061F75F /* EasyClosureAware.swift */; };
+		D2BBB9AA2290938D0061F75F /* EasyClosureAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9A52290938D0061F75F /* EasyClosureAware.swift */; };
 		D2BBB9AB2290938D0061F75F /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9A62290938D0061F75F /* Container.swift */; };
 		D2BBB9AC2290938D0061F75F /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9A62290938D0061F75F /* Container.swift */; };
 		D2BBB9AD2290938D0061F75F /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9A62290938D0061F75F /* Container.swift */; };
 		D2BBB9AE2290938D0061F75F /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9A72290938D0061F75F /* Typealias.swift */; };
 		D2BBB9AF2290938D0061F75F /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9A72290938D0061F75F /* Typealias.swift */; };
 		D2BBB9B02290938D0061F75F /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9A72290938D0061F75F /* Typealias.swift */; };
+		D2BBB9B22290947F0061F75F /* NSGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBB9B12290947F0061F75F /* NSGestureRecognizer.swift */; };
 		D5B2E8AA1C3A780C00C0327D /* EasyClosure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* EasyClosure.framework */; };
 		D5C6294A1C3A7FAA007F7B7C /* EasyClosure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* EasyClosure.framework */; };
 /* End PBXBuildFile section */
@@ -91,9 +92,10 @@
 		D2668D2E1ECA399D00FCB9A8 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		D2668D3D1ECA3C3E00FCB9A8 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		D2668D401ECA4D4400FCB9A8 /* TestCase+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TestCase+Extensions.swift"; sourceTree = "<group>"; };
-		D2BBB9A52290938D0061F75F /* OnAware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnAware.swift; sourceTree = "<group>"; };
+		D2BBB9A52290938D0061F75F /* EasyClosureAware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyClosureAware.swift; sourceTree = "<group>"; };
 		D2BBB9A62290938D0061F75F /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		D2BBB9A72290938D0061F75F /* Typealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		D2BBB9B12290947F0061F75F /* NSGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSGestureRecognizer.swift; sourceTree = "<group>"; };
 		D500FD111C3AABED00782D78 /* Playground-iOS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-iOS.playground"; sourceTree = "<group>"; };
 		D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-Mac.playground"; sourceTree = "<group>"; };
 		D5B2E89F1C3A780C00C0327D /* EasyClosure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyClosure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -220,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				D2668D2B1ECA388A00FCB9A8 /* NSButton.swift */,
+				D2BBB9B12290947F0061F75F /* NSGestureRecognizer.swift */,
 			);
 			path = Mac;
 			sourceTree = "<group>";
@@ -228,7 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				D2BBB9A62290938D0061F75F /* Container.swift */,
-				D2BBB9A52290938D0061F75F /* OnAware.swift */,
+				D2BBB9A52290938D0061F75F /* EasyClosureAware.swift */,
 				D2BBB9A72290938D0061F75F /* Typealias.swift */,
 				D2668D2D1ECA399D00FCB9A8 /* KeyPath.swift */,
 				D2668D2E1ECA399D00FCB9A8 /* Timer.swift */,
@@ -495,7 +498,7 @@
 				D25A29051FB1C37C008677F7 /* UITextView.swift in Sources */,
 				D25A29011FB1C37C008677F7 /* UIGestureRecognizer.swift in Sources */,
 				D25A29091FB1C380008677F7 /* KeyPath.swift in Sources */,
-				D2BBB9AA2290938D0061F75F /* OnAware.swift in Sources */,
+				D2BBB9AA2290938D0061F75F /* EasyClosureAware.swift in Sources */,
 				D25A290A1FB1C380008677F7 /* Timer.swift in Sources */,
 				D25A290B1FB1C380008677F7 /* Notification.swift in Sources */,
 				D2BBB9B02290938D0061F75F /* Typealias.swift in Sources */,
@@ -518,7 +521,7 @@
 				D2668D311ECA399D00FCB9A8 /* Timer.swift in Sources */,
 				D2668D1C1ECA387700FCB9A8 /* UIDatePicker.swift in Sources */,
 				D2668D3E1ECA3C3E00FCB9A8 /* Notification.swift in Sources */,
-				D2BBB9A82290938D0061F75F /* OnAware.swift in Sources */,
+				D2BBB9A82290938D0061F75F /* EasyClosureAware.swift in Sources */,
 				D2BBB9AB2290938D0061F75F /* Container.swift in Sources */,
 				D2668D1E1ECA387700FCB9A8 /* UISearchBar.swift in Sources */,
 				D2668D1A1ECA387700FCB9A8 /* UIButton.swift in Sources */,
@@ -543,7 +546,8 @@
 				D2BBB9AC2290938D0061F75F /* Container.swift in Sources */,
 				D2668D321ECA399D00FCB9A8 /* Timer.swift in Sources */,
 				D2668D3F1ECA3C3E00FCB9A8 /* Notification.swift in Sources */,
-				D2BBB9A92290938D0061F75F /* OnAware.swift in Sources */,
+				D2BBB9B22290947F0061F75F /* NSGestureRecognizer.swift in Sources */,
+				D2BBB9A92290938D0061F75F /* EasyClosureAware.swift in Sources */,
 				D2668D2C1ECA388A00FCB9A8 /* NSButton.swift in Sources */,
 				D2BBB9AF2290938D0061F75F /* Typealias.swift in Sources */,
 			);

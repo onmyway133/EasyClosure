@@ -1,7 +1,14 @@
+//
+//  EasyClosure
+//
+//  Created by khoa on 18/05/2019.
+//  Copyright © 2019 Khoa Pham. All rights reserved.
+//
+
 import Foundation
 
 private struct AssociatedKey {
-  static var key = "on"
+  static var key = "EasyClosure_on"
 }
 
 public protocol EasyClosureAware: class {
