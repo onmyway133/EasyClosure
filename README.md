@@ -12,8 +12,6 @@
 
 - [Story](#story)
 - [Target-Action and Delegate](#target-action-and-delegate)
-- [KVO](#kvo)
-- [Notification](#notification)
 - [Extensible](#extensible)
 
 ## Story
