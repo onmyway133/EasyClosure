@@ -19,7 +19,7 @@
 There are many [Communication patterns](https://www.objc.io/issues/7-foundation/communication-patterns/)
 
 <div align = "center">
-<img src="https://www.objc.io/images/issue-7/notification-flow-chart-dae4ce12.png" width="500" height="400" />
+<img src="https://www.objc.io/images/issue-7/notification-flow-chart-dae4ce12.png" width="500"/>
 </div>
 
 Sometimes, you just want a unified and quick way to do it. Just call `on` on any `NSObject` subclasses and handle your events the quickest way
