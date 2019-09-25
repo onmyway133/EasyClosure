@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D22040A6233BA21D004FCDA1 /* NSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22040A5233BA21D004FCDA1 /* NSTextField.swift */; };
 		D24F80A41DAE22C4008185FF /* iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F80A31DAE22C4008185FF /* iOSTests.swift */; };
 		D24F80A81DAE2718008185FF /* SharedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F80A71DAE2718008185FF /* SharedTests.swift */; };
 		D24F80A91DAE2718008185FF /* SharedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F80A71DAE2718008185FF /* SharedTests.swift */; };
@@ -65,6 +66,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D22040A5233BA21D004FCDA1 /* NSTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSTextField.swift; sourceTree = "<group>"; };
 		D24F80A31DAE22C4008185FF /* iOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSTests.swift; sourceTree = "<group>"; };
 		D24F80A71DAE2718008185FF /* SharedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedTests.swift; sourceTree = "<group>"; };
 		D24F80AA1DAE2727008185FF /* macOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = macOSTests.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 			children = (
 				D2BBB9BB2290A5160061F75F /* NSGestureRecognizer.swift */,
 				D2BBB9BC2290A5160061F75F /* NSButton.swift */,
+				D22040A5233BA21D004FCDA1 /* NSTextField.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -533,6 +536,7 @@
 				D2BBB9AC2290938D0061F75F /* Container.swift in Sources */,
 				D2BBB9B4229099FE0061F75F /* NSObject+Extension.swift in Sources */,
 				D2BBB9A92290938D0061F75F /* EasyClosureAware.swift in Sources */,
+				D22040A6233BA21D004FCDA1 /* NSTextField.swift in Sources */,
 				D2BBB9BD2290A5160061F75F /* NSGestureRecognizer.swift in Sources */,
 				D2BBB9BE2290A5160061F75F /* NSButton.swift in Sources */,
 				D2BBB9AF2290938D0061F75F /* Typealias.swift in Sources */,
