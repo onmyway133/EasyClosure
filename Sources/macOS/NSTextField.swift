@@ -13,6 +13,11 @@ public extension Container where Host: NSTextField {
         let target = TextFieldTarget(host: host, action: action)
         targets[TextFieldTarget.uniqueId] = target
     }
+
+    func change(_ action: @escaping StringAction) {
+        let target = TextFieldChangeTarget(host: host, action: action)
+        targets[TextFieldChangeTarget.uniqueId] = target
+    }
 }
 
 class TextFieldTarget: NSObject {
@@ -30,5 +35,23 @@ class TextFieldTarget: NSObject {
 
     @objc func handleAction(_ sender: NSTextField) {
         action?()
+    }
+}
+
+class TextFieldChangeTarget: NSObject, NSTextFieldDelegate {
+    var action: StringAction?
+
+    init(host: NSTextField, action: @escaping StringAction) {
+        super.init()
+
+        self.action = action
+        host.delegate = self
+    }
+
+    // MARK: - Action
+
+    func controlTextDidChange(_ obj: Notification) {
+        let textField = obj.object as! NSTextField
+        action?(textField.stringValue)
     }
 }
