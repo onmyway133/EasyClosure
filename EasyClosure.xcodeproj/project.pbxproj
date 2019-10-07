@@ -91,6 +91,7 @@
 		D2BBB9BB2290A5160061F75F /* NSGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSGestureRecognizer.swift; sourceTree = "<group>"; };
 		D2BBB9BC2290A5160061F75F /* NSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSButton.swift; sourceTree = "<group>"; };
 		D2BBB9BF2290A51E0061F75F /* EasyClosure.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = EasyClosure.podspec; sourceTree = "<group>"; };
+		D2D16921234B593E0069091F /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		D500FD111C3AABED00782D78 /* Playground-iOS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-iOS.playground"; sourceTree = "<group>"; };
 		D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-Mac.playground"; sourceTree = "<group>"; };
 		D5B2E89F1C3A780C00C0327D /* EasyClosure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyClosure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,6 +167,7 @@
 		D5B2E8951C3A780C00C0327D = {
 			isa = PBXGroup;
 			children = (
+				D2D16921234B593E0069091F /* Package.swift */,
 				D2BBB9BF2290A51E0061F75F /* EasyClosure.podspec */,
 				D2BBB9B722909CD20061F75F /* README.md */,
 				D500FD111C3AABED00782D78 /* Playground-iOS.playground */,
