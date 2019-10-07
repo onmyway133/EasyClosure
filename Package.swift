@@ -12,7 +12,12 @@ let package = Package(
     products: [
         .library(
             name: "EasyClosure",
-            targets: ["EasyClosure"]),
+            targets: ["EasyClosureiOS"]
+        ),
+        .library(
+            name: "EasyClosure",
+            targets: ["EasyClosuremacOS"]
+        )
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -20,12 +25,21 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "EasyClosure",
+            name: "EasyClosureiOS",
             dependencies: [],
-            path: "Sources"),
+            path: "Sources",
+            sources: ["Shared", "iOS"]
+        ),
+        .target(
+            name: "EasyClosuremacOS",
+            dependencies: [],
+            path: "Sources",
+            sources: ["Shared", "macOS"]
+        ),
         .testTarget(
             name: "EasyClosureTests",
             dependencies: ["EasyClosure"],
-            path: "EasyClosureTests"),
+            path: "EasyClosureTests/iOS"
+        ),
     ]
 )

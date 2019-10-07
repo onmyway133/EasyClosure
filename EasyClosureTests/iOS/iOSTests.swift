@@ -1,5 +1,6 @@
 import XCTest
 import EasyClosure
+import UIKit
 
 class EasyClosureTests: XCTestCase {
 
