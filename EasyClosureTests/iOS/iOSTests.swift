@@ -1,3 +1,5 @@
+#if canImport(UIKit) && os(iOS)
+
 import XCTest
 import EasyClosure
 import UIKit
@@ -9,3 +11,5 @@ class EasyClosureTests: XCTestCase {
         button.on.tap {}
     }
 }
+
+#endif

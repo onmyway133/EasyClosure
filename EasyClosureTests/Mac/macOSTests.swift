@@ -1,3 +1,5 @@
+#if canImport(AppKit)
+
 import XCTest
 import EasyClosure
 
@@ -18,3 +20,5 @@ class macOSTests: XCTestCase {
         button.on.tap {}
     }
 }
+
+#endif

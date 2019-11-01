@@ -5,6 +5,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(UIKit) && os(iOS)
+
 import UIKit
 
 public extension Container where Host: UITextView {
@@ -30,3 +32,5 @@ class TextViewTarget: NSObject, UITextViewDelegate {
         action?(textView.text ?? "")
     }
 }
+
+#endif

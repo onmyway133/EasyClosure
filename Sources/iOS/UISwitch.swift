@@ -6,6 +6,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(UIKit) && os(iOS)
+
 import UIKit
 
 public extension Container where Host: UISwitch {
@@ -31,3 +33,5 @@ class SwitchTarget: NSObject {
         action?(uiSwitch.isOn)
     }
 }
+
+#endif

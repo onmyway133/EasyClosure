@@ -5,6 +5,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(AppKit)
+
 import AppKit
 
 public extension Container where Host: NSButton {
@@ -31,3 +33,5 @@ class ButtonTarget: NSObject {
         action?()
     }
 }
+
+#endif

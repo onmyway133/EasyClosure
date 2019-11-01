@@ -6,6 +6,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(AppKit)
+
 import AppKit
 
 public extension Container where Host: NSTextField {
@@ -55,3 +57,5 @@ class TextFieldChangeTarget: NSObject, NSTextFieldDelegate {
         action?(textField.stringValue)
     }
 }
+
+#endif

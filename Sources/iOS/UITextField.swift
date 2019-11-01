@@ -5,6 +5,8 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
+#if canImport(UIKit) && os(iOS)
+
 import UIKit
 
 public extension Container where Host: UITextField {
@@ -30,3 +32,5 @@ class TextFieldTarget: NSObject {
         textAction?(textField.text ?? "")
     }
 }
+
+#endif
