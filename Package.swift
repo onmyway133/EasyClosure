@@ -13,16 +13,14 @@ let package = Package(
     products: [
         .library(
             name: "EasyClosure",
-            targets: ["EasyClosure"]),
+            targets: ["EasyClosure"]
+        ),
     ],
     targets: [
         .target(
             name: "EasyClosure",
             path: "Sources"
-        ),
-        .testTarget(
-            name: "EasyClosureTests",
-            dependencies: ["EasyClosure"]),
+        )
     ],
     swiftLanguageVersions: [.v5]
 )
