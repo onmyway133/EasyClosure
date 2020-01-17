@@ -5,8 +5,8 @@ import PackageDescription
 let package = Package(
     name: "EasyClosure",
     platforms: [
-        .macOS(.v10_14),
-        .iOS(.v13),
+        .macOS(.v10_13),
+        .iOS(.v10),
         .tvOS(.v13),
         .watchOS(.v6)
     ],
